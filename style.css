@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sons-serif ;
+    font-size: 20px;
+}
+
+.container{
+    margin: 20px 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0 20px;
+}
+
+nav ul li a:active{
+    color: #39DB4A;
+}
+
+nav ul li a:hover{
+    color: #39DB4A;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.primary-button{
+    background-color: #39DB4A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.banner-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.banner-section h1{
+    padding: 200px 0 40px 0 ;
+    font-size: 45px;
+    word-spacing: 5px;
+}
+
+.banner-section p{
+    padding: 0 0 40px 0 ;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.banner-section .img-tag{
+    width: 50%;
+    padding-top: 80px;
+}
+
+.banner-section img{
+    float: inline-end;
+}
+
+.pink-text{
+    text-transform: uppercase; 
+    color: lightcoral; 
+    font-size: 20px; 
+    letter-spacing: 2px; 
+    font-weight: 600;
+}
+
+.after-pink-text{
+    font-size: 40px; 
+    padding: 20px 0 60px 0;
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    gap: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-view{
+    padding: 30px 45px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-view:hover{
+    padding: 50px 50px;
+    background-color: aliceblue;
+    color: #39DB4A;
+}
+
+.less-than{
+    position: relative;  
+    top: 0; 
+    left: 0;
+}
+
+.card-group-menu{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    gap: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-view-menu{
+    padding: 30px 45px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-view-menu:hover{
+    padding: 50px 50px;
+    background-color: aliceblue;
+    color: #39DB4A;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.famous-foods{
+    padding: 0 0 50px 0;
+}
+
+.famous-dish{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.famous-img{
+    width: 40%;
+}
+
+.famous-recipy{
+    width: 60%;
+    padding: 50px 50px;
+    border-end-end-radius: 80px ;
+    border-top-left-radius: 80px;
+    background-color: #C1F1C6;
+    text-align: center;
+}
+
+.testimonial-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.testi-img{
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.testi-text{
+    width: 50%;
+}
+
+.service-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-section-one{
+    width: 50%;
+}
+
+.service-card-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 50%;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    color: #39DB4A;
+}
+
+.service-card{
+    padding: 30px 45px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-card:hover{
+    padding: 50px 50px;
+    background-color: aliceblue;
+    color: #39DB4A;
+}
+
+.footer-section{
+    background-color: rgb(234,233,233);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    justify-content: center;
+    line-break: loose;
+    gap: 80px;
+    text-align: center;
+}
+
+.footer-links h2{
+    padding-bottom: 10px;
+}
+
+.footer-links li{
+    padding: 10px 0 0 0;
+    list-style: none;
+}
+
+.footer-links li img{
+    margin: 10px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type=text]{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+}

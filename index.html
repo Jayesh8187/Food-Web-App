@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Foodi Shop</title>
+        <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- navbar started -->
+        <nav class="container">
+            <div style="font-weight: 900; font-size: 20px;"><span
+                    style="background-color: #39DB4A; padding: 4px 8px; border-radius: 5px; color: white;">F</span>OODI</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#dishes">Dishes</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+            <button class="primary-button"><i data-feather="phone-call" style="margin-right: 10px;"></i>Contact</button>
+        </nav>
+        <!-- navbar ended -->
+        <!-- banner section started -->
+        <section class="container banner-section">
+                <div style="width: 50%;">
+                    <h1>Dive into Delights <br>Of Delectable <span style="color: #39DB4A; font-size: 45px;">Food</span></h1>
+                    <p>Where Each Plate Weaves a Story of Culinary <br> Mastery and Passionate Craftsmanship</p>
+                    <button class="primary-button">Order Now</button>
+                </div>
+                <div class="img-tag">
+                    <img src="./Images/banner-image-removebg-preview.png" alt="">
+                </div>
+        </section>
+        <!-- banner section ended -->
+        <!-- category section started -->
+        <section class="container category-section">
+            <div style="display: grid; justify-content: center; text-align: center;">
+                <p class="pink-text">customer favorites</p>
+                <h1 class="after-pink-text">Populer Categories</h1>
+            </div>
+            <div class="card-group">
+                <div class="card-view">
+                    <div style="position: relative;  top: 0; left: 0;">
+                        <img src="./Images/bg-food.png" style="position: relative; top: 0; left: 0;" alt="">
+                        <img src="./Images/cate-1.png" style="position: absolute; top: 20px; left: 6px;" alt="">
+                    </div>
+                    <h3>Main Dish</h3>
+                    <p>(86 dishes)</p>
+                </div>
+                <div class="card-view">
+                    <div style="position: relative;  top: 0; left: 0;">
+                        <img src="./Images/bg-food.png" style="position: relative; top: 0; left: 0;" alt="">
+                        <img src="./Images/cate-2.png" style="position: absolute; top: 40px; left: 20px;" alt="">
+                    </div>
+                    <h3>Break Fast</h3>
+                    <p>(12 break fast)</p>
+                </div>
+                <div class="card-view">
+                    <div style="position: relative;  top: 0; left: 0;">
+                        <img src="./Images/bg-food.png" style="position: relative; top: 0; left: 0;" alt="">
+                        <img src="./Images/cate-3.png" style="position: absolute; top: 30px; left: 20px;" alt="">
+                    </div>
+                    <h3>Dessert</h3>
+                    <p>(48 dessert)</p>
+                </div>
+                <div class="card-view">
+                    <div style="position: relative;  top: 0; left: 0;">
+                        <img src="./Images/bg-food.png" style="position: relative; top: 0; left: 0;" alt="">
+                        <img src="./Images/cate-4.png" style="position: absolute; top: 30px; left: 30px;" alt="">
+                    </div>
+                    <h3>Browse All</h3>
+                    <p>(255 dishes)</p>
+                </div>
+            </div>
+        </section>
+        <!-- category section ended -->
+        <!-- menu section started -->
+        <section class="container menu-section">
+            <p class="pink-text">Special Dishes</p>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <h1 class="after-pink-text">Standout Dishes <br> From Our Menu</h1>
+                <div style="display: flex; gap: 10px;">
+                    <div class="less-than">
+                        <img src="./Images/bg-food.png" height="80px" width="80px" style="position: relative; top: 0; left: 0;" alt="">
+                        <img src="./Images/less than.png" style="position: absolute; top: 30px; left: 30px;" alt="">
+                    </div>
+                    <div class="less-than">
+                        <img src="./Images/bg-food.png" height="80px" width="80px" style="position: relative; top: 0; left: 0;" alt="">
+                        <img src="./Images/grater than.png" style="position: absolute; top: 30px; left: 35px;" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card-group-menu">
+                <div class="card-view-menu">
+                    <img src="./Images/Fattoush salad.png" width="200px" alt="">
+                    <h3>Fattoush salad</h3>
+                    <p>Description of the item</p>
+                    <div class="rating">
+                        <h3><span class="pink-text">$</span>24.00</h3>
+                        <div style="display: flex;"><i style="fill: yellow; color: yellow;" data-feather="star"></i><h4>4.9</h4></div>
+                    </div>
+                </div>
+                <div class="card-view-menu">
+                    <img src="./Images/Vegetable salad.png" width="200px" alt="">
+                    <h3>Fattoush salad</h3>
+                    <p>Description of the item</p>
+                    <div class="rating">
+                        <h3><span class="pink-text">$</span>26.00</h3>
+                        <div style="display: flex;"><i style="fill: yellow; color: yellow;" data-feather="star"></i><h4>4.6</h4></div>
+                    </div>
+                </div>
+                <div class="card-view-menu">
+                    <img src="./Images/Egg salad.png" width="200px" alt="">
+                    <h3>Fattoush salad</h3>
+                    <p>Description of the item</p>
+                    <div class="rating">
+                        <h3><span class="pink-text">$</span>23.00</h3>
+                        <div style="display: flex;"><i style="fill: yellow; color: yellow;" data-feather="star"></i><h4>4.5</h4></div>
+                    </div>
+                </div>
+                <div class="card-view-menu">
+                    <img src="./Images/Egg salad.png" width="200px" alt="">
+                    <h3>Fattoush salad</h3>
+                    <p>Description of the item</p>
+                    <div class="rating">
+                        <h3><span class="pink-text">$</span>23.00</h3>
+                        <div style="display: flex;"><i style="fill: yellow; color: yellow;" data-feather="star"></i><h4>4.5</h4></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- menu section ended -->
+        <!-- famous dishes started -->
+        <section class="container famous-foods">
+            <h2 style="font-size: 40px; text-align: center; text-transform: uppercase;">Our Famous Food with recipy</h2>
+            <p style="text-align: center; font-size: 40px; color: lightcoral; padding: 0 0 20px 0;">7-cheese pizza</p>
+            <div class="famous-dish">
+                <div class="famous-img">
+                    <img src="./Images/famous-1.png" alt="">
+                </div>
+                <div class="famous-recipy">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur itaque voluptatibus enim dolore obcaecati tempore blanditiis provident quis, a vel quidem aliquid optio. Pariatur sed aliquam repellendus, quam laboriosam ullam accusamus. Voluptate sequi nemo ut laborum tenetur dolor quisquam maxime! Voluptas unde numquam voluptates? Illum sequi maiores quis tenetur, possimus consequatur! Ea quas, rem deleniti nemo, blanditiis perspiciatis inventore nostrum aperiam facilis obcaecati, velit eius aliquam non! Illo vitae eligendi facere autem iure neque placeat repudiandae, voluptate nesciunt ad sed consectetur et. Optio quasi odit accusamus dicta consequuntur maiores, et dolorum in saepe reprehenderit voluptatibus! Repudiandae exercitationem facilis magni.</p>
+                </div>
+            </div>
+            <div class="famous-dish">
+                <div class="famous-recipy">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur itaque voluptatibus enim dolore obcaecati tempore blanditiis provident quis, a vel quidem aliquid optio. Pariatur sed aliquam repellendus, quam laboriosam ullam accusamus. Voluptate sequi nemo ut laborum tenetur dolor quisquam maxime! Voluptas unde numquam voluptates? Illum sequi maiores quis tenetur, possimus consequatur! Ea quas, rem deleniti nemo, blanditiis perspiciatis inventore nostrum aperiam facilis obcaecati, velit eius aliquam non! Illo vitae eligendi facere autem iure neque placeat repudiandae, voluptate nesciunt ad sed consectetur et. Optio quasi odit accusamus dicta consequuntur maiores, et dolorum in saepe reprehenderit voluptatibus! Repudiandae exercitationem facilis magni.</p>
+                </div>
+                <div class="famous-img">
+                    <img src="./Images/famous-2.png" width="80%" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- famous section ended -->
+        <!-- testimonial section started -->
+        <section class="container">
+            <div class="testimonial-section">
+                <div class="testi-img">
+                    <img src="./Images/chef.png" alt="">
+                </div>
+                <div class="testi-text"> 
+                    <p class="pink-text">testimonial</p>
+                    <h2 class="after-pink-text">what Our Customer <br>Say About Us</h2>
+                    <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit recusandae dolores nulla tenetur perferendis accusamus atque? Temporibus, ex aperiam.</p>
+                    <img src="./Images/testi-side-two-rate.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section ended -->
+        <!-- service section started -->
+        <section class="container">
+            <div class="service-section">
+                <div class="service-section-one">
+                    <p class="pink-text">Our Story & Services</p>
+                    <h4 class="after-pink-text">Our Culinary Journey <br> And Services</h4>
+                    <p style="padding-bottom: 20px; padding-right: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aspernatur fuga voluptatibus quas voluptates? Dignissimos porro velit, at iure a sequi quia quos exercitationem obcaecati atque dolor in, molestias vitae, architecto fugiat? Qui natus a rem ipsum accusamus, saepe illum.</p>
+                    <button class="primary-button">Explore</button>
+                </div>
+                <div class="service-card-group">
+                    <div class="service-card">
+                        <img src="./Images/fi-rr-salad.png" alt="">
+                        <h5>catring</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./Images/fi-rr-time-fast.png" alt="">
+                        <h5>catring</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./Images/fi-rr-shopping-cart-check.png" alt="">
+                        <h5>catring</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./Images/fi-rr-gift.png" alt="">
+                        <h5>catring</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-section">
+                <img src="./Images/Group 24.png" width="100px" alt height="50px">
+                <div class="footer-links">
+                    <h2>Category</h2>
+                    <ul>
+                        <li><a href class="footer-a">Men</a><br></li>
+                        <li><a href class="footer-a">Women</a><br></li>
+                        <li><a href class="footer-a">Kids</a><br></li>
+                        <li><a href class="footer-a">Accessories</a><br></li>
+                        <li><a href class="footer-a">Shop</a><br></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h2>Useful Link</h2>
+                    <ul>
+                        <li><a href class="footer-a">News & Tips</a><br></li>
+                        <li><a href class="footer-a">About us</a><br></li>
+                        <li><a href class="footer-a">Terms and Conditions</a><br></li>
+                        <li><a href class="footer-a">Our Shop</a><br></li>
+                        <li><a href class="footer-a">Contect us</a><br></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h2>Contect</h2>
+                    <ul>
+                        <li><a href class="footer-a">470B Ruecker Wall,<br>Kassandratown,Hi</a><br></li>
+                        <li><a href class="footer-a">+(2256)45215423</a><br></li>
+                        <li><a href class="footer-a">Shop@gmail.com</a><br></li>
+                        <li><img src="./Images/facebook-app-symbol.png" alt>
+                        <img src="./Images/twitter.png" alt>
+                        <img src="./Images/google-plus.png" alt></li><br>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h2>NewsLetter</h2>
+                    <ul>
+                        <li><p>470B Ruecker Wall, Kassandratown</p></li>
+                        <li><p>hi 2256</p></li>
+                        <li><input type="text" name="textbox" id><button class="primary-button">Subscribe</button></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        feather.replace();
+    </script>
+    <script src="./script.js"></script>
+</html>
